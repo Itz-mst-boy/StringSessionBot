@@ -68,6 +68,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
 
 
 ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
-            "\n\nPlease visit @StarkBotsChat if this message doesn't contain any " \
-            "sensitive information and you if want to report this as " \
-            "this error message is not being logged by us!"
+            "\n\nᴘʟᴇᴀsᴇ  ᴠɪsɪᴛ  @worldwide_friend_zone ᴄʜᴀᴛ ɪғ ᴛʜɪs ᴍᴇssᴀɢᴇ  ᴅᴏᴇsɴ'ᴛ ᴄᴏɴᴛᴀɪɴ ᴀɴʏ " \
+            "sᴇɴsɪᴛɪᴠᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ʏᴏᴜ ɪғ  ᴡᴀɴᴛ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴛʜɪs ᴀs " \
+            "ᴛʜɪs  ᴇʀʀᴏʀ ᴍᴇssᴀɢᴇ  ɪs ɴᴏᴛ ʙᴇɪɴɢ ʟᴏɢɢᴇᴅ ʙʏ ᴜs !"
