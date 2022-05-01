@@ -19,7 +19,7 @@ app = Client(
 
 
 if __name__ == "__main__":
-    print("Starting the bot")
+    print("sᴛᴀʀᴛɪɴɢ ᴛʜᴇ ʙᴏᴛ")
     try:
         app.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
     uname = app.get_me().username
-    print(f"@{uname} is now running!")
+    print(f"@{uname} ɪs  ɴᴏᴡ ʀᴜɴɴɪɴɢ!")
     idle()
     app.stop()
-    print("Bot stopped. Alvida!")
+    print("ʙᴏᴛ sᴛᴏᴘᴘᴇᴅ  ᴀʟᴠɪᴅᴀ !")
