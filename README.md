@@ -1,22 +1,22 @@
-# StringSessionBot
+# sᴛʀɪɴɢsᴇssɪᴏɴʙᴏᴛ 
 
 
 
-> A star ⭐ from you means a lot to us!
+> ᴀ sᴛᴀʀ  ⭐ ғʀᴏᴍ  ʏᴏᴜ ᴍᴇᴀɴs ᴀ ʟᴏᴛ ᴛᴏ  ᴜs!
 
 <p align="center"><a href="https://www.github.com/itz-mst-boy"><img src="https://telegra.ph/file/7fa9017265d3d6f51d191.jpg" width="2000"></a></p>
 
-Telegram bot to generate pyrogram and telethon string session.
+ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏ  ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ  ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ  sᴛʀɪɴɢ  sᴇssɪᴏɴ .
 
 
-## Usage
+## ᴜsᴀɢᴇ 
 
-### Deploy to Heroku
+### ᴅᴇᴘʟᴏʏ  ᴛᴏ  ʜᴇʀᴏᴋᴜ 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itz-mst-boy/StringSessionBot)
+[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itz-mst-boy/StringSessionBot)
 
-1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN` (and `MUST_JOIN`).
-2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
+1. ᴛᴀᴘ  ᴏɴ  ᴀʙᴏᴠᴇ  ʙᴜᴛᴛᴏɴ  ᴀɴᴅ  ғɪʟʟ  `API_ID`, `API_HASH`, `BOT_TOKEN` (and `MUST_JOIN`).
+2. ᴛʜᴇɴ  ᴛᴀᴘ  "ᴅᴇᴘʟᴏʏ  ᴀᴘᴘ" ʙᴇʟᴏᴡ  ɪᴛ. ᴡᴀɪᴛ ᴛɪʟʟ ᴅᴇᴘʟᴏʏɪɴɢ ɪs ᴄᴏᴍᴘʟᴇᴛᴇ (ᴡɪʟʟ ᴛᴀᴋᴇ ᴀᴛᴍᴏsᴛ 2 ᴍɪɴᴜᴛᴇs ).
 3. After deploying is complete, tap on "Manage App"
 4. Check the logs to see if your bot is ready!
 
