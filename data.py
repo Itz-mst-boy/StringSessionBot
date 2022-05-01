@@ -2,61 +2,56 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("🔥 sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ 🔥", callback_data="generate")]
 
     home_buttons = [
         generate_single_button,
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="🚸ʀᴇᴛᴜʀɴ ʜᴏᴍᴇ🚸 ", callback_data="home")]
     ]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("🌀ʙᴏᴛ sᴛᴀᴛᴜs ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛs🌀", url="https://t.me/moi_bot_lists/4")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ❔", callback_data="help"),
+            InlineKeyboardButton("🎪 ᴀʙᴏᴜᴛ ᴍᴇ 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("♥ ᴍᴏʀᴇ ᴀᴍᴀᴢɪɴɢ ʙᴏᴛs ♥", url="https://t.me/moi_bot_lists")],
     ]
 
     START = """
-Hey {}
+ʜᴇʏ {}
 
-Welcome to {}
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {}
 
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
+ʏᴏᴜ  ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ  (ᴇᴠᴇɴ  ᴠᴇʀsɪᴏɴ 2) ᴀɴᴅ  ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ. ᴜsᴇ ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !
 
-Still reading?
-You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
-
-By @StarkBots
+ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- @moi_bot_lists
     """
 
     HELP = """
-✨ **Available Commands** ✨
+✨ **ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs** ✨
 
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-/generate - Generate Session
-/cancel - Cancel the process
-/restart - Cancel the process
+/about - ᴀʙᴏᴜᴛ ᴍᴏɪ ʙᴏᴛ 
+/help - ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇssᴀɢᴇ 
+/start - sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ 
+/generate - ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 
+/cancel - ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴘʀᴏᴄᴇss 
+/restart - ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ᴘʀᴏᴄᴇss
 """
 
     ABOUT = """
-**About This Bot** 
+**ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ  ʙʏ @itz_mst_boy  ᴘᴏᴡᴇʀᴅᴇᴅ ʙʏ @moi_bot_lists
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/itz-mst-boy/StringSessionBot)
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+ғʀᴀᴍᴇᴡᴏʀᴋ : [ᴘʏʀᴏɢʀᴀᴍ](https://docs.pyrogram.org)
 
-Language : [Python](https://www.python.org)
+ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](https://www.python.org)
 
-Developer : @StarkProgrammer
+ᴅᴇᴠᴇʟᴏᴘᴇʀ  : @itz_mst_boy
     """
