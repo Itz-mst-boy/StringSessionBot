@@ -1,6 +1,5 @@
 # StringSessionBot
-t.me/Itz_string_generator_bot
-# REPL-BOT
+
 
 
 > A star ⭐ from you means a lot to us!
