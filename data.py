@@ -18,7 +18,7 @@ class Data:
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ❔", callback_data="help"),
             InlineKeyboardButton("🎪 ᴀʙᴏᴜᴛ ᴍᴇ 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ ᴍᴏʀᴇ ᴀᴍᴀᴢɪɴɢ ʙᴏᴛs ♥", url="https://t.me/moi_bot_lists")],
+        [InlineKeyboardButton("♥ ᴍᴜᴋᴇsʜ ᴋʜᴜsʜɪ ♥", url="https://t.me/mukhushi_official")],
     ]
 
     START = """
