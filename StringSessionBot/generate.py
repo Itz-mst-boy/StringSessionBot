@@ -153,7 +153,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**{ty.upper()} STRING SESSION** \n\n`{string_session}` \n\n ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @Itz_string_generator_bot\n\n ᴍᴏɪ ᴏᴡɴᴇʀ @it_zmst_boy"
+    text = f"**{ty.upper()} STRING SESSION** \n\n`{string_session}` \n\n ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @Itz_string_generator_bot\n\n ᴍᴏɪ ᴏᴡɴᴇʀ @itz_mst_boy"
     try:
         if not is_bot:
             await client.send_message("me", text)
@@ -162,7 +162,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "Successfully generated {} string session. \n\nPlease check your saved messages! \n\nBy @StarkBots".format("telethon" if telethon else "pyrogram"))
+    await bot.send_message(msg.chat.id, "Successfully generated {} string session. \n\nPlease check your saved messages! \n\nBy @mukhushi_official".format("telethon" if telethon else "pyrogram"))
 
 
 async def cancelled(msg):
